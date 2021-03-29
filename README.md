@@ -10,3 +10,5 @@ Then the main function will take the authors, split the file into first authors 
 then remove anyone who is also a first author from the list. An object called NonFirstAuthor will be added to your environment that details all these authors.
 
 The function takes two arguments, the filepath and limit (T/F) that if T, only shows authors who appear more than once.
+
+It takes authors as specified in Zotero, and cannot necessarily ascertain differences between J. Bloggs and Jo Bloggs, etc. etc.
